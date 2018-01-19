@@ -1,0 +1,37 @@
+NET "in[0]" LOC=P21;
+NET "in[1]" LOC=P22;
+NET "in[2]" LOC=P24;
+NET "in[3]" LOC=P26;
+NET "in[4]" LOC=P27;
+NET "in[5]" LOC=P28;
+NET "in[6]" LOC=P29;
+NET "in[7]" LOC=P31;
+NET "in[8]" LOC=P33;
+NET "in[9]" LOC=P34;
+
+NET "clk"	LOC=P79;
+
+NET "SDI"		LOC=P52;
+NET "CLKIN"		LOC=P50;
+//NET "CLKOUT"	LOC=P18;
+NET "OE"			LOC=P48;
+//NET "OUTL" 		LOC=P19;
+NET "SCLK"		LOC=P51;
+
+#out_DAC
+NET "out[0]" LOC=P125;
+NET "out[1]" LOC=P126;
+NET "out[2]" LOC=P128;
+NET "out[3]" LOC=P130;
+NET "out[4]" LOC=P131;
+NET "out[5]" LOC=P132;
+NET "out[6]" LOC=P133;
+NET "out[7]" LOC=P135;
+NET "out[8]" LOC=P137;
+NET "out[9]" LOC=P138;
+
+
+NET "clkA" LOC=P123;
+NET "clkB" LOC=P122;
+NET "DACWriteA" LOC=P124;
+NET "DACWriteB" LOC=P120;
